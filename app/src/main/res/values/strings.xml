@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InputForm</string>
+    <string name="full_name"> Nombre Completo</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="age">Edad</string>
+    <string name="phone">Número Telefónico</string>
+    <string name="summit">Enviar</string>
+</resources>
