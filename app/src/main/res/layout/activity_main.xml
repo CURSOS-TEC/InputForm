@@ -12,11 +12,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_margin="20dp">
+        android:layout_margin="40dp"
+        android:gravity="center_horizontal">
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
             <EditText
                 android:id="@+id/main_activity_input_full_name"
                 android:layout_height="wrap_content"
@@ -25,6 +27,7 @@
                 android:hint="@string/full_name"></EditText>
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
+            android:layout_margin="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <EditText
@@ -35,6 +38,7 @@
                 android:hint="@string/email"></EditText>
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
+            android:layout_margin="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <EditText
@@ -45,6 +49,7 @@
                 android:hint="@string/age"></EditText>
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
+            android:layout_margin="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <EditText
@@ -55,12 +60,12 @@
                 android:hint="@string/phone"></EditText>
 
 
-
         </android.support.design.widget.TextInputLayout>
         <Button
             android:layout_width="100dp"
             android:layout_height="40dp"
-            android:id="@+id/main_activity_summit"></Button>
+            android:id="@+id/main_activity_summit"
+            android:text="@string/summit"></Button>
 
 
     </LinearLayout>
